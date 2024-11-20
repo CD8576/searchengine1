@@ -1,0 +1,19 @@
+{
+  "name": "proxy-search-engine",
+  "version": "1.0.0",
+  "description": "Proxy Search Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mime": "^3.0.0",
+    "@nebula-services/bare-server-node": "^1.0.0"
+  }
+}
